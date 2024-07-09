@@ -1,13 +1,13 @@
 import React from 'react'
-import Background from './components/Background'
-import ForeGround from './components/ForeGround'
+import MainContent from './components/MainContent'
+import Navbar from './components/Navbar'
 
 
 function App() {
   return (
-    <div className="w-full h-screen bg-zinc-800">
-      <Background />
-      <ForeGround />     
+    <div className="min-h-screen flex flex-col items-center bg-gray-50">
+     <Navbar />
+      <MainContent />
     </div>
   )
 }
